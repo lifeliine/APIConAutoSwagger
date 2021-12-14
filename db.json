@@ -1,14 +1,19 @@
 {
   "tasks": [
     {
-      "name": "Compras",
-      "description": "Ir a las 18hs al super a comprar pan",
+      "name": "cafe",
+      "description": "Ir a la cafeteria el miercoles",
       "id": "3-CiWFmLK2JF7l8gKegEy"
     },
     {
-      "name": "Gimnasio",
-      "description": "Ir a las 8hs al gimnasio",
-      "id": "ZvJnX1LiW4wSmflE5ISv1"
+      "id": "i4eZyp2d8eIJY2j4immv6",
+      "name": "gym",
+      "description": "agregar piernas a la rutina de los jueves"
+    },
+    {
+      "name": "Prueba swagger",
+      "description": "Creando una nueva tarea desde el body de swagger",
+      "id": "uNGMqYTNN2lPsMW23Pa8O"
     }
   ]
 }
