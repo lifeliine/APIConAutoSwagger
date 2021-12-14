@@ -8,13 +8,18 @@ type Task = {
   description: string
 }
 
-let db: lowdb.LowdbSync<Task[]>;
+type Schema = {
+  tasks: Task[];
+}
+
+let db: lowdb.LowdbSync<Schema>; // si uso Task[] no funcionan los push en taskControllers
 
 export const createConnection = async () => {
-    const adapter = new FileSync<Task[]>("db.json");
+    const adapter = new FileSync<Schema>("db.json"); 
     db = lowdb(adapter)
     db.defaults({ tasks: [] }).write();
   }
 
 export const getConnection = () => db;
+
 

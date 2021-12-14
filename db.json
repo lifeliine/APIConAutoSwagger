@@ -1,3 +1,14 @@
 {
-  "tasks": []
+  "tasks": [
+    {
+      "name": "Compras",
+      "description": "Ir a las 18hs al super a comprar pan",
+      "id": "3-CiWFmLK2JF7l8gKegEy"
+    },
+    {
+      "name": "Gimnasio",
+      "description": "Ir a las 8hs al gimnasio",
+      "id": "ZvJnX1LiW4wSmflE5ISv1"
+    }
+  ]
 }
